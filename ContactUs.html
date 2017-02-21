@@ -1,45 +1,49 @@
 <!doctype html>
-
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-
   <title>NBA Everything</title>
-  <meta name="description" content="HTML5 Template">
-
+  <meta charset="utf-8" name="description" content="HTML5 Template">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-<body bgcolor="blue">
-<h1 align="center"> NBA Everything </h1>
-<h4 align="right"> <a href="index.htm"> Back to Home Page </a></h4>
-<hr />
+  <h1  id="title1"> <strong>NBA Everything </strong></h1>
+  <p id="static">
+    <img id="homelogo" src="Logo.jpg" alt="NBA Everything Logo" style="width:500px;height:180px;" align="right">
+  </p>
 
-<h2 align="left"> Contact Us </h2>
+  <ul id="nav">
+    <li><a  href="index.htm">Home</a></li>
+      <li><a href="shoes.html">Shoes</a></li>
+      <li><a href="jerseys.html">Jerseys</a></li>
+      <li style="float:right"><a class="active" href="ContactUs.html"> Contact Us </a></li>
+  </ul>
 
-<p> Use this form to contact us about any <br> of your questions or concerns regarding<br>NBA Everything. As soon as you submit<br> your form you will receive an email from<br> us as soon as possible. Thank you!
+
+<p id="form"><strong> Use this form to contact us about any <br> of your questions or concerns regarding<br>NBA Everything. As soon as you submit<br> your form you will receive an email from<br> us as soon as possible. Thank you!</strong>
 </p>
 
-<table>
-<table border="1" cellpadding="10" cellspacing="2">
+
+<table id="formtable" >
 <tr>
-	<th><form action="" align="center">
+	<th><form action="" align="left">
 		First Name: <br><input type="text" name="firstname"><br>
 		Last Name: <br><input type="text" name="lastname"><br>
 		Email Address: <br><input type="text" name="emailaddress"><br>
-		<input type="radio" name="Option" value="OrderStatusUpdate" checked>Order Status Update <br>
-  		<input type="radio" name="Option" value="Question">Question<br>
-  		<input type="radio" name="Option" value="Problem">Problem
+    <select name="dropdown">
+      <option value="Order Status" selected="">Order Status </option>
+      <option value="Problem"> Problem </option>
+      <option value="Question">Question</option>
+    </select>
   		</form>
 
-  		<form action=""> <div> <textarea name="Comments" id="Comments">Type comment here! Thanks!</textarea></div>
-  		<input type="submit" value="Submit"><input type="reset" value="Reset"><br>
+  		<form action=""> <div> <textarea id="textarea" rows="10" cols="70" name="Comments" id="Comments">Type here...</textarea></div>
+  		<div id="resetsubmit"><input type="submit" value="Submit"><input type="reset" value="Reset"></div>
   		</form>
-
-
-
-
-
-
+  </th>
+</tr>
+</table>
 
 </body>
+</html>
