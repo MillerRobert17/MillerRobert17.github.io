@@ -5,7 +5,7 @@ ul {width:100%; position:absolute; left:0px; top:60px; list-style-type:none; mar
 li a {display:block; color:white; text-align:center; padding:14px 16px; text-decoration:none;}
 li {float:left;}
 h1#title1 {font-size:50px; position:absolute; left:40px; top:10px;}
-img#homelogo {width:100%; position:absolute;left: 500px; top: 0px;}
+img#homelogo {width:100%; position:absolute; left: 500px; top: 0px;}
 ul#nav {position:absolute; left:0px; top:150px;}
 .active {background-color: #FF8C00;}
 
@@ -24,3 +24,13 @@ p#form {position:absolute; left:20px; top:180px;}
 table#formtable {width:100%; position:absolute; left:400px; top:200px;}
 textarea#textarea { position:absolute; left:150px; top:30px;}
 div#resetsubmit {position:absolute; left:20px; top:150px;}
+
+/* Date */
+.footer {
+  position: absolute;
+  bottom:0px;
+  left: 20%;
+    background-color: #efefef;
+  text-align: center;
+width:70%;
+  }
