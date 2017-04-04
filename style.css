@@ -26,11 +26,6 @@ textarea#textarea { position:absolute; left:150px; top:30px;}
 div#resetsubmit {position:absolute; left:20px; top:150px;}
 
 /* Date */
-.footer {
-  position: absolute;
-  bottom:0px;
-  left: 20%;
-    background-color: #efefef;
-  text-align: center;
+.footer {position:absolute; bottom:0px; left: 20%; background-color: #efefef;text-align: center;
 width:70%;
   }
