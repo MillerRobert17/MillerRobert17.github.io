@@ -4,6 +4,7 @@
 <head>
   <title>NBA Everything</title>
   <meta charset="utf-8" name="description" content="HTML5 Template">
+  <script src="myScirpt.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -27,20 +28,20 @@
 
 <table id="formtable" >
 <tr>
-	<th><form action="" align="left">
-		First Name: <br><input type="text" name="firstname"><br>
-		Last Name: <br><input type="text" name="lastname"><br>
-		Email Address: <br><input type="text" name="emailaddress"><br>
+	<th><form name="ContactForm" action="/action_page_post.php" align="left" onsubmit="return validateForm()" method="post">
+		First Name: <br><input type="text" name="firstname" id="x"><br>
+		Last Name: <br><input type="text" name="lastname" id="y"><br>
+		Email Address: <br><input type="text" name="emailaddress" id="z"><br>
     <select name="dropdown">
       <option value="Order Status" selected="">Order Status </option>
       <option value="Problem"> Problem </option>
       <option value="Question">Question</option>
     </select>
-  		</form>
-
-  		<form action=""> <div> <textarea id="textarea" rows="10" cols="70" name="Comments" id="Comments">Type here...</textarea></div>
+  	
+      <div> <textarea id="textarea" rows="10" cols="70" name="Comments" id="Comments">Type here...</textarea></div>
   		<div id="resetsubmit"><input type="submit" value="Submit"><input type="reset" value="Reset"></div>
   		</form>
+      <script src="myScript.js"></script>
   </th>
 </tr>
 </table>
