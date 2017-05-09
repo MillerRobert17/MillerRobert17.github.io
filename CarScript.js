@@ -45,7 +45,7 @@ function GameStarted()
         running = true;
 
         document.getElementById("message").style.visibility = "hidden";
-        document.getElementById("startButton").style.backgroundImage = "url(greenlight.jpg)";
+        document.getElementById("startButton").style.backgroundImage = "url(greenlight.jpeg)";
         document.getElementById("car1img").src = "car1.png";
         document.getElementById("car2img").src = "car2.png";
         document.getElementById("car3img").src = "car3.png";
@@ -118,17 +118,11 @@ function MoveCars()
         car3Amt = amt;
         document.getElementById("car3").style.left = car3Left.toString() + "px";
         document.getElementById("car3").style.right = (document.getElementById("car3").style.right - amt).toString() + "px";
-
-    
-
-        
-        
-       
     }
 
     else {
         running = false;
-        document.getElementById("startButton").style.backgroundImage = "redlight.png";
+        document.getElementById("startButton").style.backgroundImage = "redlight.jpeg";
         document.getElementById("message").style.visibility = "visible";
 
         document.getElementById("car1img").src = "car1.png";

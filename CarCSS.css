@@ -29,7 +29,7 @@
 {text-align:center;position:fixed;float:right;top: 5%;right: 5%;z-index: 100;}
 
 a
-{display:inline-block;background-image: url(redlight.png);background-repeat: no-repeat;background-size: 100px 100px;width: 120px;height: 120px;}
+{display:inline-block;background-image: url(redlight.jpeg);background-repeat: no-repeat;background-size: 100px 100px;width: 520px;height: 120px; position:absolute; top: 500px; left: 250px;}
 
 a:hover{text-decoration:none;cursor: pointer;}
 
