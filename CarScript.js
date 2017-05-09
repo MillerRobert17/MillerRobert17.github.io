@@ -79,7 +79,7 @@ function loop()
         {
             MoveCars();
             speed += accel;
-            rand = 500;
+            rand = 100;
             loop();          
         }, rand);            
     }
